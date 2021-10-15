@@ -1,11 +1,14 @@
 <template>
   <div>
-    <h1>Home</h1>
+    <hero />
   </div>
 </template>
 
 <script>
-export default {};
+import hero from "../components/hero.vue";
+export default {
+  components: { hero },
+};
 </script>
 
 <style>
