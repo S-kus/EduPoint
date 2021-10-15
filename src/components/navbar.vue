@@ -12,10 +12,18 @@
       </a>
       <div class="navbar-links" ref="navLinks">
         <ul>
-          <li><router-link to="/">Products</router-link></li>
-          <li><router-link to="/dashboard">Dashboard</router-link></li>
-          <li><router-link to="/login">Login</router-link></li>
-          <li><router-link to="/register">Register</router-link></li>
+          <li @click="displayLinks">
+            <router-link to="/">Products</router-link>
+          </li>
+          <li @click="displayLinks">
+            <router-link to="/dashboard">Dashboard</router-link>
+          </li>
+          <li @click="displayLinks">
+            <router-link to="/login">Login</router-link>
+          </li>
+          <li @click="displayLinks">
+            <router-link to="/register">Register</router-link>
+          </li>
         </ul>
       </div>
     </nav>
