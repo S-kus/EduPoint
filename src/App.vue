@@ -1,11 +1,14 @@
 <template>
-  <main>
-    <router-view></router-view>
-  </main>
+  <div>
+    <navbar></navbar>
+    <main>
+      <router-view></router-view>
+    </main>
+  </div>
 </template>
 <script>
-import Home from "./views/Home.vue";
+import Navbar from "./components/navbar.vue";
 export default {
-  components: { Home },
+  components: { Navbar },
 };
 </script>
