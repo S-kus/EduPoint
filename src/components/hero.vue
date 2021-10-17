@@ -2,7 +2,7 @@
   <div>
     <section id="hero">
       <div class="left-side">
-        <img id="heroImg" src="../assets/img.png" alt="heroImage" />
+        <img id="heroImg" src="img.png" alt="heroImage" />
       </div>
       <div class="right-side">
         <h2>EduPoint</h2>
