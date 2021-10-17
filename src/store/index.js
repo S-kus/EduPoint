@@ -8,15 +8,41 @@ export default createStore({
         id: 1,
         title: "The Unending Game",
         author: "Vikram Sood",
+        price: 500,
         description: "Insights about India's greatest espionages...",
-        image: "../assets/products/theUnendingGame.png"
+        image: "theUnendingGame.jpg"
       },
       {
         id: 2,
-        title: "Immortals of Meluha",
+        title: "The Immortals of Meluha",
         author: "Amish Tripathi",
+        price: 450,
         description: "A perfect odyssey of Lord Shiva and how he becamewhat we know him of.",
-        image: "../assets/products/immortalsOfMeluha.png"
+        image: "immortalsOfMeluha.jpg"
+      },
+      {
+        id: 3,
+        title: "The Oath Of The Vayuputras",
+        author: "Amish Tripathi",
+        price: 480,
+        description: "Shiva learns more about the infamous foes Nagas and a life-changing secret of Vayuputras.",
+        image: "oathOfVayuputras.jpg"
+      },
+      {
+        id: 4,
+        title: "2 States",
+        author: "Chetan Bhagat",
+        price: 450,
+        description: "A story about a couple coming from two different states in India, who face hardships in convincing their parents to approve of their marriage.",
+        image: "2states.jpg"
+      },
+      {
+        id: 5,
+        title: "The Monk who sold his ferrari",
+        author: "Robin Sharma",
+        price: 450,
+        description: "A renowned inspirational fiction, The Monk Who Sold His Ferrari is a revealing story that offers the readers a simple yet profound way to live life.",
+        image: "theMonkWhoSoldHisFerrari.jpg"
       },
     ],
     cart: [],
